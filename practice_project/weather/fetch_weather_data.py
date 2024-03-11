@@ -10,4 +10,3 @@ def fetch_weather_data():
     except requests.exceptions.RequestException as e:
         print("Error fetching data:", e)
         return None
-
